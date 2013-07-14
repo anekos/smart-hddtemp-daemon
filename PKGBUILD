@@ -14,7 +14,7 @@ replaces=()
 backup=()
 
 source=('smart-hddtemp-daemon' 'smart-hddtemp-daemon.service')
-md5sums=('a0756896e17986f4bd47511be10b7949' '8d836c733ae51596e67278217c76e847')
+md5sums=('dc78ef6c3c492800213b12cc49d02534' '8d836c733ae51596e67278217c76e847')
 
 package () {
   cd $srcdir
