@@ -1,0 +1,8 @@
+[Unit]
+Description=Smart hddtemp Daedmon
+
+[Service]
+ExecStart=/usr/bin/smart-hddtemp-daemon
+
+[Install]
+WantedBy=multi-user.target

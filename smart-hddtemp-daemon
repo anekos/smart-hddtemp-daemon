@@ -1,0 +1,10 @@
+#!/bin/sh
+
+_IFS="$IFS"
+
+interval="${1:-300}"
+
+# Available devices
+devices=`hddtemp /dev/sd? 2> /dev/null | grep '[0-9]' | cut -d: -f 1 `
+
+exec /usr/bin/hddtemp -dF $devices
