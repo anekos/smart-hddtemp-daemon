@@ -1,12 +1,12 @@
 # Maintainer: anekos <anekos@snca.net>
 pkgname=smart-hddtemp-daemon
 pkgver=1.0.0
-pkgrel=5
+pkgrel=6
 pkgdesc="Automatically watch all devices"
 url="http://snca.net/"
 arch=('i686' 'x86_64')
 license=('BSD')
-depends=('bash')
+depends=('hddtemp')
 optdepends=()
 makedepends=()
 conflicts=()
